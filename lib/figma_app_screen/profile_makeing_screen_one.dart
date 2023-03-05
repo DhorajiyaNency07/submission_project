@@ -17,7 +17,7 @@ class _ProfileLearningScreenState extends State<ProfileLearningScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        automaticallyImplyLeading: true,
         iconTheme: const IconThemeData(color: Colors.black,),
         backgroundColor: Colors.white,
         elevation: 0,
